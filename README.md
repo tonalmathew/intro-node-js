@@ -37,10 +37,10 @@ Important: After installing node, please run `npm install i` or `npm install` to
   * test - `npx jest`
 
 This exercise will have you convert some JavaScript written for the browser, so that it works with node.
-- [ ] checkout to start branch
-- [ ] check the README on how to run test (will talk later about that command)
-- [ ] fix and convert the 3 js files in the exercises/modules/browser to Nodejs JavaScript and place them in exercises/modules/node
-- [ ] ensure all tests pass by running test command again
+- [ ] Checkout to start branch
+- [ ] Check the README on how to run test (will talk later about that command)
+- [ ] Fix and convert the 3 js files in the exercises/modules/browser to Nodejs JavaScript and place them in exercises/modules/node
+- [ ] Ensure all tests pass by running test command again
 ### CLI (npm)
 * location - `exercises/cli`
 * commands
@@ -49,8 +49,8 @@ This exercise will have you convert some JavaScript written for the browser, so 
 
 You'll be creating a CLI program that saves and retrieves contacts from and address book. The program is partially there, however, you must install some remote modules, and use the fileSystem to get some things to work.
 
-- [ ] install all remote modules (hint: use npm)
-- [ ] check the README on how to run your CLI
+- [ ] Install all remote modules (hint: use npm)
+- [ ] Check the README on how to run your CLI
 - [ ] Fix the CLI so that the "new" command works by saving contacts to contacts.json
 - [ ] Fix the CLI so that the "list" command works by listing all contacts and allowing you to select one, the prints out the selected contact
 ### API (async code)
@@ -60,18 +60,18 @@ You'll be creating a CLI program that saves and retrieves contacts from and addr
 
 You'll be refacoring and fixing a simple static asset server. The server uses blocking sync code and crashes whenever a request comes in that is asking for an asset that is not found. Neither of those are desirable. You'll also have to teach the server how to server the assets it has in the `assets` folder.
 
-- [ ] install all remote modules (hint: use npm)
-- [ ] check the README on how to run your server
-- [ ] refactor the sync file reading code to be async with a callback, promise, or async await
-- [ ] prevent the server from crashing when an assets is not found. Instead, respond with a 404 status code
-- [ ] create some sort of router logic to handle incoming requests for assets
+- [ ] Install all remote modules (hint: use npm)
+- [ ] Check the README on how to run your server
+- [ ] Refactor the sync file reading code to be async with a callback, promise, or async await
+- [ ] Prevent the server from crashing when an assets is not found. Instead, respond with a 404 status code
+- [ ] Create some sort of router logic to handle incoming requests for assets
 ### Debugging & Testing
-* location - `exercises/testing`
-* commands
+* Location - `exercises/testing`
+* Commands
   * start the server - `node exercises/testing/index.js`
   * test - `npm test` or `yarn test` or `npx jest`
 
-You have to debug and track down some issues in a small app. Use your logging and inspector to find them. Try and fix them, once you do, write some test to make sure it stays fixed 👌🏾😎💯
+You have to debug and track down some issues in a small application. Use your logging and inspector to find them. Try and fix them, once you do, write some test to make sure it stays fixed 👌🏾😎💯
 
 - [ ] checkout to start branch
 - [ ] check the README on how to execute this program and run test
